@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D04D5A1959608C0054574A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D591959608C0054574A /* main.m */; };
+		A5D04D5D1959608C0054574A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D5C1959608C0054574A /* AppDelegate.m */; };
+		A5D04D601959608C0054574A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D5F1959608C0054574A /* MasterViewController.m */; };
+		A5D04D631959608C0054574A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D621959608C0054574A /* DetailViewController.m */; };
+		A5D04D661959608C0054574A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D04D641959608C0054574A /* Main.storyboard */; };
+		A5D04D681959608C0054574A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D04D671959608C0054574A /* Images.xcassets */; };
+		A5D04D741959608C0054574A /* RSCellTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D731959608C0054574A /* RSCellTransitionDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D04D6E1959608C0054574A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D04D4C1959608C0054574A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D04D531959608C0054574A;
+			remoteInfo = RSCellTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5D04D541959608C0054574A /* RSCellTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCellTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D04D581959608C0054574A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D04D591959608C0054574A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5D04D5B1959608C0054574A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5D04D5C1959608C0054574A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5D04D5E1959608C0054574A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A5D04D5F1959608C0054574A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A5D04D611959608C0054574A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A5D04D621959608C0054574A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A5D04D651959608C0054574A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D04D671959608C0054574A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5D04D6D1959608C0054574A /* RSCellTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCellTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D04D721959608C0054574A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D04D731959608C0054574A /* RSCellTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCellTransitionDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D04D511959608C0054574A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D04D6A1959608C0054574A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D04D4B1959608C0054574A = {
+			isa = PBXGroup;
+			children = (
+				A5D04D561959608C0054574A /* RSCellTransitionDemo */,
+				A5D04D701959608C0054574A /* RSCellTransitionDemoTests */,
+				A5D04D551959608C0054574A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D04D551959608C0054574A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D04D541959608C0054574A /* RSCellTransitionDemo.app */,
+				A5D04D6D1959608C0054574A /* RSCellTransitionDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D04D561959608C0054574A /* RSCellTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5D04D5B1959608C0054574A /* AppDelegate.h */,
+				A5D04D5C1959608C0054574A /* AppDelegate.m */,
+				A5D04D5E1959608C0054574A /* MasterViewController.h */,
+				A5D04D5F1959608C0054574A /* MasterViewController.m */,
+				A5D04D611959608C0054574A /* DetailViewController.h */,
+				A5D04D621959608C0054574A /* DetailViewController.m */,
+				A5D04D641959608C0054574A /* Main.storyboard */,
+				A5D04D671959608C0054574A /* Images.xcassets */,
+				A5D04D571959608C0054574A /* Supporting Files */,
+			);
+			path = RSCellTransitionDemo;
+			sourceTree = "<group>";
+		};
+		A5D04D571959608C0054574A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D04D581959608C0054574A /* Info.plist */,
+				A5D04D591959608C0054574A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D04D701959608C0054574A /* RSCellTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D04D731959608C0054574A /* RSCellTransitionDemoTests.m */,
+				A5D04D711959608C0054574A /* Supporting Files */,
+			);
+			path = RSCellTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		A5D04D711959608C0054574A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D04D721959608C0054574A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D04D531959608C0054574A /* RSCellTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D04D771959608C0054574A /* Build configuration list for PBXNativeTarget "RSCellTransitionDemo" */;
+			buildPhases = (
+				A5D04D501959608C0054574A /* Sources */,
+				A5D04D511959608C0054574A /* Frameworks */,
+				A5D04D521959608C0054574A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSCellTransitionDemo;
+			productName = RSCellTransitionDemo;
+			productReference = A5D04D541959608C0054574A /* RSCellTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D04D6C1959608C0054574A /* RSCellTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D04D7A1959608C0054574A /* Build configuration list for PBXNativeTarget "RSCellTransitionDemoTests" */;
+			buildPhases = (
+				A5D04D691959608C0054574A /* Sources */,
+				A5D04D6A1959608C0054574A /* Frameworks */,
+				A5D04D6B1959608C0054574A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D04D6F1959608C0054574A /* PBXTargetDependency */,
+			);
+			name = RSCellTransitionDemoTests;
+			productName = RSCellTransitionDemoTests;
+			productReference = A5D04D6D1959608C0054574A /* RSCellTransitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D04D4C1959608C0054574A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Remi Santos";
+				TargetAttributes = {
+					A5D04D531959608C0054574A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A5D04D6C1959608C0054574A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A5D04D531959608C0054574A;
+					};
+				};
+			};
+			buildConfigurationList = A5D04D4F1959608C0054574A /* Build configuration list for PBXProject "RSCellTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D04D4B1959608C0054574A;
+			productRefGroup = A5D04D551959608C0054574A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D04D531959608C0054574A /* RSCellTransitionDemo */,
+				A5D04D6C1959608C0054574A /* RSCellTransitionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D04D521959608C0054574A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D04D661959608C0054574A /* Main.storyboard in Resources */,
+				A5D04D681959608C0054574A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D04D6B1959608C0054574A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D04D501959608C0054574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D04D5D1959608C0054574A /* AppDelegate.m in Sources */,
+				A5D04D601959608C0054574A /* MasterViewController.m in Sources */,
+				A5D04D5A1959608C0054574A /* main.m in Sources */,
+				A5D04D631959608C0054574A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D04D691959608C0054574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D04D741959608C0054574A /* RSCellTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D04D6F1959608C0054574A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D04D531959608C0054574A /* RSCellTransitionDemo */;
+			targetProxy = A5D04D6E1959608C0054574A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D04D641959608C0054574A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D04D651959608C0054574A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D04D751959608C0054574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D04D761959608C0054574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D04D781959608C0054574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RSCellTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D04D791959608C0054574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RSCellTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5D04D7B1959608C0054574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSCellTransitionDemo.app/RSCellTransitionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSCellTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A5D04D7C1959608C0054574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSCellTransitionDemo.app/RSCellTransitionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSCellTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D04D4F1959608C0054574A /* Build configuration list for PBXProject "RSCellTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D04D751959608C0054574A /* Debug */,
+				A5D04D761959608C0054574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D04D771959608C0054574A /* Build configuration list for PBXNativeTarget "RSCellTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D04D781959608C0054574A /* Debug */,
+				A5D04D791959608C0054574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5D04D7A1959608C0054574A /* Build configuration list for PBXNativeTarget "RSCellTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D04D7B1959608C0054574A /* Debug */,
+				A5D04D7C1959608C0054574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D04D4C1959608C0054574A /* Project object */;
+}
