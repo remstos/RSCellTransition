@@ -14,6 +14,7 @@
 		A5D04D661959608C0054574A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D04D641959608C0054574A /* Main.storyboard */; };
 		A5D04D681959608C0054574A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D04D671959608C0054574A /* Images.xcassets */; };
 		A5D04D741959608C0054574A /* RSCellTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D731959608C0054574A /* RSCellTransitionDemoTests.m */; };
+		A5D04D80195960BA0054574A /* RSCustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D04D7F195960BA0054574A /* RSCustomAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		A5D04D6D1959608C0054574A /* RSCellTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCellTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D04D721959608C0054574A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D04D731959608C0054574A /* RSCellTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCellTransitionDemoTests.m; sourceTree = "<group>"; };
+		A5D04D7E195960BA0054574A /* RSCustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCustomAnimationController.h; sourceTree = "<group>"; };
+		A5D04D7F195960BA0054574A /* RSCustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCustomAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 		A5D04D4B1959608C0054574A = {
 			isa = PBXGroup;
 			children = (
+				A5D04D7D195960BA0054574A /* RSCellTransition */,
 				A5D04D561959608C0054574A /* RSCellTransitionDemo */,
 				A5D04D701959608C0054574A /* RSCellTransitionDemoTests */,
 				A5D04D551959608C0054574A /* Products */,
@@ -119,6 +123,15 @@
 				A5D04D721959608C0054574A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D04D7D195960BA0054574A /* RSCellTransition */ = {
+			isa = PBXGroup;
+			children = (
+				A5D04D7E195960BA0054574A /* RSCustomAnimationController.h */,
+				A5D04D7F195960BA0054574A /* RSCustomAnimationController.m */,
+			);
+			path = RSCellTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D04D80195960BA0054574A /* RSCustomAnimationController.m in Sources */,
 				A5D04D5D1959608C0054574A /* AppDelegate.m in Sources */,
 				A5D04D601959608C0054574A /* MasterViewController.m in Sources */,
 				A5D04D5A1959608C0054574A /* main.m in Sources */,
